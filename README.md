@@ -36,7 +36,7 @@ the biometric trait in a permanent way.
 <hr>
 
 
-## Face Recognition
+## 1. Face Recognition
 
 1. Face Recognition is a recognition technique used to detect faces of individuals whose images saved in the data set. Despite the point that other methods of identification can be more accurate, face recognition has always remained a significant focus of research because of its non-meddling nature and because it is people’s facile method of personal identification.
 
@@ -48,7 +48,7 @@ the biometric trait in a permanent way.
 <hr>
 
 
-## Adversarial ML Attacks
+## 2. Adversarial ML Attacks
 
 1. Our deep neural networks are powerful machines, but what we don’t understand can hurt us. As sophisticated as they are, they’re highly vulnerable to small attacks that can radically change their outputs.
 
