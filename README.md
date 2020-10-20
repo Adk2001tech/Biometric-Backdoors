@@ -3,8 +3,6 @@
 
 ## ABSTRACT
 
-<hr>
-
 * In recent years, biometric authentication has become one of the
 preferred ways to mitigate burdens associated with passwords. With
 a long history of research, face and fingerprint recognition are
@@ -25,6 +23,8 @@ the biometric trait in a permanent way.
 
 * **An adversary(Attacker) can exploit the template update procedure to cause the system to adapt the template, thereby indirectly modifying the data within. In fact, during template update, the system replaces or adds recently seen samples to the user template. In this attack, the adversary corrupts the user template allowing himself to impersonate the user with his own biometric trait. The poisoned template is hard to detectand creates an inconspicuous and stealthy backdoor for the adversary in the long-term. Once placed, the backdoor allows the adversary to access the system without requiring them to modify their appearance.**
 
+<hr>
+
 ## Contributions to Repository
 
 1. Introduction towards Face recognition systems.
@@ -32,6 +32,8 @@ the biometric trait in a permanent way.
 3. Poisoning Sample Generation.
 4. Poisoning Attack Injection.
 5. Evaluation Techniques for Adversarial ML Attacks.
+
+<hr>
 
 
 
