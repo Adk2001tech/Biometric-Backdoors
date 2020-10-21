@@ -10,7 +10,7 @@ the most popular modalities and authentication systems based on
 them are commonly delivered with consumer products. 
 
 
-<img align="right" src="Images/ABSTRACT.png" width="480" title="ABSTRACT">
+<img align="right" src="Images/intro1.gif" width="480" title="ABSTRACT">
 
 
 
