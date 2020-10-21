@@ -111,7 +111,7 @@ can therefore impersonate the user with his own trait.
 <hr>
 
 
-## Poisoning Sample Generation
+## 3. Poisoning Sample Generation
 
 
 
@@ -119,7 +119,7 @@ can therefore impersonate the user with his own trait.
  <img align="right" src="Images/res (4).png" width="500" title="System learned 2-D boundary">
  
  
- <img align="right" src="Images/res (3).png" width="500" title="System learned 2-D boundary">
+ <img align="right" src="Images/res (3).png" width="500" title="Sample 2D distribution">
 
 
 
@@ -133,15 +133,41 @@ achieve the correct location in features space.
 
 3. In figure shown(right side), the system is trained on Legitimate user data and it's learned decision boundary.
 
-4.**Have successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space with appropriate Glass perturbations**
+4.**Successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space with appropriate Glass perturbations**
 as shown in figure(2-D).
 
 
-### Algorithm
 
 
- <img  src="Images/Algo1.png" width="500" title="System learned 2-D boundary">
+## 4. Poisoning Attack Injection
 
+1. We use the impostor acceptance rate (IAR)
+as an indicator for injection (i.e., the proportion of attacker samples
+that are accepted by the system as legitimate).
+ 
+2. We consider that the adversary can successfully inject a sample when at least a θ2 fraction of the attackers samples (as they are wearing the glasses)
+are accepted by the system. Whenever the adversary attempts to inject a sample, if less than θ2 of his samples are accepted
+by the system we consider the attempt a failure. In this case, the
+adversary will increase the amount of perturbations on the glasses
+(move closer to the user’s template), and attempt
+again. In the cases where more than θ2 samples are accepted, then
+we consider the attempt successful and inject one of these accepted
+samples into the current user template (chosen at random)
+
+
+<img align="right" src="Images/res (2).png" width="500" title="System learned 2-D boundary">
+
+
+3. The algorithm stops when at least θ1 fraction of the attacker
+samples(while wearing no glasses), is accepted by the system.
+
+4. Figure shows, modified 2D system model
+
+
+
+
+
+<img src="Images/result2.png"  title="Image samples">
 
 
 
