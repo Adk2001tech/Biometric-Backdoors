@@ -133,7 +133,7 @@ achieve the correct location in features space.
 
 3. In figure shown(right side), the system is trained on Legitimate user data and it's learned decision boundary.
 
-4.**Have successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space**
+4.**Have successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space with appropriate Glass perturbations**
 as shown in figure(2-D).
 
 
