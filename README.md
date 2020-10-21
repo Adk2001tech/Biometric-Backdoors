@@ -139,7 +139,6 @@ as shown in figure(2-D).
 
 
 <br>
-<br><br>
 
 <hr>
 
@@ -168,7 +167,7 @@ samples(while wearing no glasses), is accepted by the system.
 
 4. Figure shows, modified 2D system model
 
-
+<br>
 
 <hr>
 
