@@ -114,6 +114,19 @@ can therefore impersonate the user with his own trait.
 ## Poisoning Sample Generation
 
 
+1. We have considered facenet DNN model as building block of our attack: we imagine the adversary can craft
+coloured glasses and wear them in order to carry out the attack.
+The glasses should be re-crafted at each injection step in order to
+achieve the correct location in features space. 
+
+
+ <img align="right" src="Images/res (4).png" width="500" title="System learned 2-D boundary">
+ 
+ 
+2. In System Face detection model/classifier , we consider *ben affleck* as a  Legitimate user and *
+Jerry Seinfeld* as Attacker.
+
+3. In figure shown(right side), the system is trained on Legitimate user data and it's learned decision boundary.
 
 
 
