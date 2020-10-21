@@ -138,6 +138,11 @@ as shown in figure(2-D).
 
 
 
+<br>
+<br><br>
+
+<hr>
+
 
 ## 4. Poisoning Attack Injection
 
@@ -165,13 +170,18 @@ samples(while wearing no glasses), is accepted by the system.
 
 
 
+<hr>
 
+### Visualization of intermediate poisoning samples
 
 <img src="Images/result2.png"  title="Image samples">
 
 
 
 
+
+<br>
+<br>
 
 <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Face_Detection_basic.ipynb">Link1</a>
 
