@@ -128,9 +128,6 @@ can therefore impersonate the user with his own trait.
 
 
 
-
-
-
 <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Face_Detection_basic.ipynb">Link1</a>
 
 Basic Introduction towards Face Detection Algorithm
