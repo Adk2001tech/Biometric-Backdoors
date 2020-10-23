@@ -13,15 +13,9 @@ them are commonly delivered with consumer products.
 <img align="right" src="Images/intro2.gif" height="280" title="ABSTRACT">
 
 
+* Implementation from <a href="https://arxiv.org/abs/1905.09162">Paper</a>
 
-* While early research focused on the performance of these modalities under a
-zero-effort threat model, current trends in biometric systems are
-also prioritizing high protection of biometric templates, i.e., the
-users stored biometric information. Templates in fact represent
-sensitive user data and their leak might compromise the secrecy of
-the biometric trait in a permanent way.
 
-* **An adversary(Attacker) can exploit the template update procedure to cause the system to adapt the template, thereby indirectly modifying the data within. In fact, during template update, the system replaces or adds recently seen samples to the user template. In this attack, the adversary corrupts the user template allowing himself to impersonate the user with his own biometric trait. The poisoned template is hard to detectand creates an inconspicuous and stealthy backdoor for the adversary in the long-term. Once placed, the backdoor allows the adversary to access the system without requiring them to modify their appearance.**
 
 <hr>
 
