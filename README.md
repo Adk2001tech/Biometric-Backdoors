@@ -102,7 +102,6 @@ as shown in figure(2D).
 
 
 <br><br>
-<br><br>
 
 <hr>
 
