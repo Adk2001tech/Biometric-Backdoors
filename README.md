@@ -125,12 +125,12 @@ as shown in figure(2D).
 samples, while wearing no glasses , is accepted by the system**
 
 
-<img align="right" src="Images/res (2).png" width="500" title="System learned 2-D boundary">
+<img align="right" src="Images/res (2).png" width="560" title="System learned 2-D boundary">
 
 
 4. Figure shows, modified(2D) decision boundary of system's model. 
 
-<br>
+<br><br>
 <br><br><br>
 
 
