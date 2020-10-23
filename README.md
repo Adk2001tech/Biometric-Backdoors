@@ -57,6 +57,9 @@ them are commonly delivered with consumer products.
 <br>
 
 <hr>
+
+
+
 ## 3. Paper Overview
 
  <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
@@ -151,6 +154,9 @@ samples, while wearing no glasses , is accepted by the system**
 
 ## 6. POISONING COUNTERMEASURES
 
+
+**Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Part(4)%20Poisoning%20Countermeasures.ipynb">NOTEBOOK</a> for more  section details.**
+
 1. We propose a new detection technique, based on the rationale that poisoning samples will all lie in a predetermined direction in feature space with respect to the current legitimate user centroid. The direction is determined based on the location of the attacker samples.
 
 2. Given the user’s current centroid Xc and a set of template updates {Xi , Xi+1, ..., Xi+n }, which we refer to as an update sequence, we compute the direction of the update at time i: **∆Xi = Xc − Xi** and we can obtain the directions at each step as {∆Xi , ..., ∆Xi+n }. We then compute the angular similarity for pairs of consecutive updates with the **Cosine Similarity.**
@@ -191,28 +197,4 @@ samples, while wearing no glasses , is accepted by the system**
 
 
 
-
-
-
-
-
-<br>
-<br>
-
-<a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Face_Detection_basic.ipynb">Link1</a>
-
-Basic Introduction towards Face Detection Algorithm
-
-
-<a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Biometric_Backdoors_Part1_INTRO.ipynb">Link2</a>
-
-Project Overview
-
-<a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Poisoning%20Samples%20Generation%20Part(2.1)%20CENTROID.ipynb">Link3</a>
-
-**Poisoning Sample Generation**: Centroid Shifting 
-
-
-<a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Poisoning%20Samples%20Generation%20Part(2.2)%20Target.ipynb">Link4</a>
-
-**Poisoning Sample Generation**: Target shifting
+## Thank You 
