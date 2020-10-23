@@ -51,7 +51,7 @@ them are commonly delivered with consumer products.
 
 2. We can manipulate Input by using our knowledge of the training model and the purpose of the attack. A targeted attack, for example, manipulates the input images to change the classifier. The input can be used to cause the machine to see what the attacker wants. In some cases, it’s possible to accomplish this by changing only one pixel. Attacker can control perturbations so that they aren’t detectable to standard noise filters. This is what makes these attacks so dangerous!
 
-## Paper Overview
+## 3. Paper Overview
 
  <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
 
@@ -59,9 +59,9 @@ them are commonly delivered with consumer products.
 
 
 **The contributions of this paper are as follows:**
- * **We propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and limited injection capabilities scenarios.**
-* **We evaluate the attack on state-of-the-art recognition pipelines,including white- and black-box models. We show that the error rates of the system hardly change when such a backdoor is present, making the attack inconspicuous.**
-* **We introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates, and we investigate these trade-offs on a large face dataset.**
+ * **They propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and limited injection capabilities scenarios.**
+* **They evaluate the attack on state-of-the-art recognition pipelines,including white- and black-box models. They have show that the error rates of the system hardly change when such a backdoor is present, making the attack inconspicuous.**
+* **They introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates, and They have investigate these trade-offs on a large face dataset.**
 
 
 
@@ -75,15 +75,13 @@ user samples, rejecting the adversary in an impersonation attempt.
 <hr>
 
 
-## 3. Poisoning Sample Generation
+## 4.. Poisoning Sample Generation
 
 
 
 
  <img align="right" src="Images/res (4).png" width="500" title="System learned 2-D boundary">
  
- 
- <img align="right" src="Images/res (3).png" width="500" title="Sample 2D distribution">
 
 
 
@@ -100,6 +98,8 @@ achieve the correct location in features space.
 4.**Successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space with appropriate Glass perturbations**
 as shown in figure(2D).
 
+
+ <img  src="Images/res (3).png" width="500" title="Sample 2D distribution">
 
 
 <br>
