@@ -42,9 +42,9 @@ them are commonly delivered with consumer products.
 
 
 
-2. **Neural Network** has continued to use pattern recognition and classification. Kohonen was the first to show that a neuron network could be used to recognise aligned and normalised faces. There are methods, which perform feature extraction using neural networks. There are many methods, which **combined with tools like SVM's, logistic regression, etc and make a hybrid classifier for face recognition**.
+2. **Neural Network** has continued to use pattern recognition and classification. I used these them as a feature vector(128) extractor. There are many methods, which **combined with tools like SVM's, logistic regression, etc and make a hybrid classifier for face recognition**.
 
-3. We will use **FACENET** model for feature extraction and **ONE-CLASS SVM** as a system detector in practise.
+3. Will use **FACENET** model for feature extraction method and **ONE-CLASS SVM** as a system detector.
 
 
 <hr>
