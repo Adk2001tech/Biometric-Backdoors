@@ -5,7 +5,7 @@
 
 
 
-<img align="left" src="Images/intro2.gif" height="280" title="ABSTRACT">
+<img align="right" src="Images/intro2.gif" height="200" title="ABSTRACT">
 
 
 * In recent years, biometric authentication has become one of the
@@ -58,17 +58,20 @@ them are commonly delivered with consumer products.
 **Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">here</a>**
 
 
+**The contributions of this paper are as follows:**
+ * **We propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and limited injection capabilities scenarios.**
+* **We evaluate the attack on state-of-the-art recognition pipelines,including white- and black-box models. We show that the error rates of the system hardly change when such a backdoor is present, making the attack inconspicuous.**
+* **We introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates, and we investigate these trade-offs on a large face dataset.**
+
+
+
 Figure 2 shows how the user and attacker samples are well separated
 in the feature space, due to the uniqueness of their biometric traits.
 At enrolment, the classifier learns the distribution of the user samples creating a boundary around it, shown by the darker blue area.
 The classifier is able to correctly discriminate between attacker and
 user samples, rejecting the adversary in an impersonation attempt.
 
-**The contributions of this paper are as follows:**
- * **We propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and limited injection capabilities scenarios.**
-* **We evaluate the attack on state-of-the-art recognition pipelines,including white- and black-box models. We show that the error rates of the system hardly change when such a backdoor is present, making the attack inconspicuous.**
-* **We introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates, and we investigate these trade-offs on a large face dataset.**
-                    
+
 <hr>
 
 
