@@ -22,13 +22,6 @@ them are commonly delivered with consumer products.
 
 <hr>
 
-## Contributions to Repository
-
-1. Introduction towards Face recognition systems.
-2. Adversarial ML Attacks.
-3. Poisoning Sample Generation.
-4. Poisoning Attack Injection.
-5. Evaluation Techniques for Adversarial ML Attacks.
 
 <hr>
 
@@ -60,11 +53,9 @@ them are commonly delivered with consumer products.
 
 ## Paper Overview
 
-**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">here</a>**
+ <img align="right" src="Images/overview.png" width="500" title="Paper Overview">
 
- 
- <img align="right" src="Images/overview.png" width="530" title="Paper Overview">
- 
+**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">here</a>**
 
 
 Figure 2 shows how the user and attacker samples are well separated
@@ -73,15 +64,10 @@ At enrolment, the classifier learns the distribution of the user samples creatin
 The classifier is able to correctly discriminate between attacker and
 user samples, rejecting the adversary in an impersonation attempt.
 
-The contributions of this paper are as follows:
- * We propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and
-limited injection capabilities scenarios.
-* We evaluate the attack on state-of-the-art recognition pipelines,
-including white- and black-box models. We show that the error
-rates of the system hardly change when such a backdoor is
-present, making the attack inconspicuous.
-* We introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates,
-and we investigate these trade-offs on a large face dataset.
+**The contributions of this paper are as follows:**
+ * **We propose a method to plant biometric backdoors by poisoning the legitimate user’s template in minimal knowledge and limited injection capabilities scenarios.**
+* **We evaluate the attack on state-of-the-art recognition pipelines,including white- and black-box models. We show that the error rates of the system hardly change when such a backdoor is present, making the attack inconspicuous.**
+* **We introduce a poisoning detection method that thwarts poisoning attacks without affecting legitimate template updates, and we investigate these trade-offs on a large face dataset.**
                     
 <hr>
 
