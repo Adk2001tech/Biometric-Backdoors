@@ -32,10 +32,11 @@ them are commonly delivered with consumer products.
 
 ## 1. Face Recognition
 
+<img align="right" src="Images/Feature Distribution.png" width="480" title="Feature Distribution">
+
+
 1. Face Recognition is a recognition technique used to detect faces of individuals whose images saved in the data set. Despite the point that other methods of identification can be more accurate, face recognition has always remained a significant focus of research because of its non-meddling nature and because it is people’s facile method of personal identification.
 
-
-<img align="right" src="Images/Feature Distribution.png" width="480" title="Feature Distribution">
 
 
 2. **Neural Network** has continued to use pattern recognition and classification. Kohonen was the first to show that a neuron network could be used to recognise aligned and normalised faces. There are methods, which perform feature extraction using neural networks. There are many methods, which **combined with tools like SVM's, logistic regression, etc and make a hybrid classifier for face recognition**.
