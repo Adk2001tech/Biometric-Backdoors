@@ -147,7 +147,9 @@ samples, while wearing no glasses , is accepted by the system**
 
 <img src="Images/result2.png" width="860"  title="Image samples">
 
-### 6. POISONING COUNTERMEASURES
+<hr>
+
+## 6. POISONING COUNTERMEASURES
 
 1. We propose a new detection technique, based on the rationale that poisoning samples will all lie in a predetermined direction in feature space with respect to the current legitimate user centroid. The direction is determined based on the location of the attacker samples.
 
