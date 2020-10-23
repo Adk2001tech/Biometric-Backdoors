@@ -61,7 +61,7 @@ them are commonly delivered with consumer products.
 
  <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
 
-**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">here</a>**
+**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">HERE</a>. Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Biometric_Backdoors_Part1_INTRO.ipynb">NOTEBOOK</a> for more details**
 
 
 **The contributions of this paper are as follows:**
@@ -87,6 +87,7 @@ user samples, rejecting the adversary in an impersonation attempt.
 
 ## 4.. Poisoning Sample Generation
 
+**Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Poisoning%20Samples%20Generation%20Part(2.2)%20Target.ipynb">NOTEBOOK</a> for more  section details**
 
 
 
@@ -94,6 +95,8 @@ user samples, rejecting the adversary in an impersonation attempt.
  
 
  <img  align="right" src="Images/res (3).png" width="500" title="Sample 2D distribution">
+
+
 
 1. I have considered **FACE-NET** DNN model as building block of our attack: Also(as per paper) the adversary can craft
 coloured glasses and wear them in order to carry out the attack.
@@ -118,6 +121,9 @@ as shown in figure(2D).
 
 ## 4. Poisoning Attack Injection
 
+**Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Poisoning%20Samples%20Generation%20Part(2.2)%20Target.ipynb">NOTEBOOK</a> for more  section details**
+
+
 1. **They use the impostor acceptance rate (IAR) as an indicator for injection (i.e., the proportion of attacker samples that are accepted by the system as legitimate).**
  
 2. **I consider that the adversary can successfully inject a sample when at least a θ2 fraction of the attackers samples (as they are wearing the glasses) are accepted by the system. Whenever the adversary attempts to inject a sample, if less than θ2 of his samples are accepted by the system I consider the attempt a failure. In this case, the adversary will increase the amount of perturbations on the glasses (move closer to the user’s template), and attempt again. In the cases where more than θ2 samples are accepted, then I consider the attempt successful and inject one of these accepted samples into the current user template (chosen at random).**
@@ -141,11 +147,23 @@ samples, while wearing no glasses , is accepted by the system**
 
 <img src="Images/result2.png" width="860"  title="Image samples">
 
+### 6. POISONING COUNTERMEASURES
+
+1. We propose a new detection technique, based on the rationale that poisoning samples will all lie in a predetermined direction in feature space with respect to the current legitimate user centroid. The direction is determined based on the location of the attacker samples.
+
+2. Given the user’s current centroid Xc and a set of template updates {Xi , Xi+1, ..., Xi+n }, which we refer to as an update sequence, we compute the direction of the update at time i: **∆Xi = Xc − Xi** and we can obtain the directions at each step as {∆Xi , ..., ∆Xi+n }. We then compute the angular similarity for pairs of consecutive updates with the **Cosine Similarity.**
+
+3. **The underlying intuition is that COSθi(Cosine Similarity) will be higher for pairs of poisoning samples compared to legitimate updates because the poisoning attack needs to shift the current user centroid towards the adversary’s, which lies in a specific pre-defined direction.**
+
 
 
 <br>
 
 <hr>
+
+
+
+
 
 
 
