@@ -5,7 +5,7 @@
 
 
 
-<img align="right" src="Images/intro2.gif" height="280" title="ABSTRACT">
+<img align="left" src="Images/intro2.gif" height="280" title="ABSTRACT">
 
 
 * In recent years, biometric authentication has become one of the
@@ -53,7 +53,7 @@ them are commonly delivered with consumer products.
 
 ## Paper Overview
 
- <img align="right" src="Images/overview.png" width="500" title="Paper Overview">
+ <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
 
 **Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">here</a>**
 
