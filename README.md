@@ -65,7 +65,7 @@ them are commonly delivered with consumer products.
 
 
 
-Figure 2 shows how the user and attacker samples are well separated
+Figure shows how the user and attacker samples are well separated
 in the feature space, due to the uniqueness of their biometric traits.
 At enrolment, the classifier learns the distribution of the user samples creating a boundary around it, shown by the darker blue area.
 The classifier is able to correctly discriminate between attacker and
@@ -87,18 +87,18 @@ user samples, rejecting the adversary in an impersonation attempt.
 
 
 
-1. We have considered facenet DNN model as building block of our attack: we imagine the adversary can craft
+1. I have considered **FACE-NET** DNN model as building block of our attack: Also(as per paper) the adversary can craft
 coloured glasses and wear them in order to carry out the attack.
 The glasses should be re-crafted at each injection step in order to
 achieve the correct location in features space. 
 
  
-2. In System Face detection model/classifier , we consider *ben affleck* as a  Legitimate user and *Jerry Seinfeld* as Attacker.
+2. In System Face detection model/classifier , I consider *ben affleck* as a  Legitimate user and *Jerry Seinfeld* as Attacker.
 
 3. In figure shown(right side), the system is trained on Legitimate user data and it's learned decision boundary.
 
 4.**Successfully implemented Algorithm1(from paper) mapping from Target vector/feature space to Adversarial's own feature space with appropriate Glass perturbations**
-as shown in figure(2-D).
+as shown in figure(2D).
 
 
 
