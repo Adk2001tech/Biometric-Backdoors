@@ -83,7 +83,7 @@ user samples, rejecting the adversary in an impersonation attempt.
  <img align="right" src="Images/res (4).png" width="500" title="System learned 2-D boundary">
  
 
-
+ <img  align="right" src="Images/res (3).png" width="500" title="Sample 2D distribution">
 
 1. I have considered **FACE-NET** DNN model as building block of our attack: Also(as per paper) the adversary can craft
 coloured glasses and wear them in order to carry out the attack.
@@ -99,10 +99,10 @@ achieve the correct location in features space.
 as shown in figure(2D).
 
 
- <img  src="Images/res (3).png" width="500" title="Sample 2D distribution">
 
 
-<br>
+<br><br>
+<br><br>
 
 <hr>
 
