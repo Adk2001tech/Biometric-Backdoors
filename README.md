@@ -3,14 +3,17 @@
 
 ## ABSTRACT
 
+
+
+<img align="right" src="Images/intro2.gif" height="280" title="ABSTRACT">
+
+
 * In recent years, biometric authentication has become one of the
 preferred ways to mitigate burdens associated with passwords. With
 a long history of research, face and fingerprint recognition are
 the most popular modalities and authentication systems based on
 them are commonly delivered with consumer products. 
 
-
-<img align="right" src="Images/intro2.gif" height="280" title="ABSTRACT">
 
 
 * Implementation from <a href="https://arxiv.org/abs/1905.09162">Paper</a>
