@@ -19,10 +19,6 @@ them are commonly delivered with consumer products.
 * Implementation from <a href="https://arxiv.org/abs/1905.09162">Paper</a>
 
 
-
-<hr>
-
-
 <hr>
 
 
@@ -42,6 +38,9 @@ them are commonly delivered with consumer products.
 4. **Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Face_Detection_basic.ipynb">NOTEBOOK</a> for more details**
 
 
+
+<br>
+
 <hr>
 
 
@@ -51,6 +50,10 @@ them are commonly delivered with consumer products.
 
 2. We can manipulate Input by using our knowledge of the training model and the purpose of the attack. A targeted attack, for example, manipulates the input images to change the classifier. The input can be used to cause the machine to see what the attacker wants. In some cases, it’s possible to accomplish this by changing only one pixel. Attacker can control perturbations so that they aren’t detectable to standard noise filters. This is what makes these attacks so dangerous!
 
+
+<br>
+
+<hr>
 ## 3. Paper Overview
 
  <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
@@ -70,6 +73,10 @@ in the feature space, due to the uniqueness of their biometric traits.
 At enrolment, the classifier learns the distribution of the user samples creating a boundary around it, shown by the darker blue area.
 The classifier is able to correctly discriminate between attacker and
 user samples, rejecting the adversary in an impersonation attempt.
+
+
+
+<br><br>
 
 
 <hr>
