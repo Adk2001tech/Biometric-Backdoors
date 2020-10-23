@@ -153,9 +153,11 @@ samples, while wearing no glasses , is accepted by the system**
 
 2. Given the user’s current centroid Xc and a set of template updates {Xi , Xi+1, ..., Xi+n }, which we refer to as an update sequence, we compute the direction of the update at time i: **∆Xi = Xc − Xi** and we can obtain the directions at each step as {∆Xi , ..., ∆Xi+n }. We then compute the angular similarity for pairs of consecutive updates with the **Cosine Similarity.**
 
+<img align="right" src="Images/Attack_COUNTER.png" width="560" title="System learned 2-D boundary">
+
 3. **The underlying intuition is that COSθi(Cosine Similarity) will be higher for pairs of poisoning samples compared to legitimate updates because the poisoning attack needs to shift the current user centroid towards the adversary’s, which lies in a specific pre-defined direction.**
 
-
+4. Side figure shows, how **system detection model get's notified before the boundary gets closer to actuall attacker's feature space.**
 
 <br>
 
