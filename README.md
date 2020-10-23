@@ -130,7 +130,7 @@ samples, while wearing no glasses , is accepted by the system**
 
 4. Figure shows, modified(2D) decision boundary of system's model. 
 
-<br><br>
+<br><br><br>
 <br><br><br>
 
 
