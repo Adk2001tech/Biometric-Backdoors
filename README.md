@@ -19,6 +19,9 @@ them are commonly delivered with consumer products.
 * Implementation from <a href="https://arxiv.org/abs/1905.09162">Paper</a>
 
 
+<br>
+
+
 <hr>
 
 
@@ -115,36 +118,26 @@ as shown in figure(2D).
 
 ## 4. Poisoning Attack Injection
 
-1. We use the impostor acceptance rate (IAR)
-as an indicator for injection (i.e., the proportion of attacker samples
-that are accepted by the system as legitimate).
+1. **They use the impostor acceptance rate (IAR) as an indicator for injection (i.e., the proportion of attacker samples that are accepted by the system as legitimate).**
  
-2. We consider that the adversary can successfully inject a sample when at least a θ2 fraction of the attackers samples (as they are wearing the glasses)
-are accepted by the system. Whenever the adversary attempts to inject a sample, if less than θ2 of his samples are accepted
-by the system we consider the attempt a failure. In this case, the
-adversary will increase the amount of perturbations on the glasses
-(move closer to the user’s template), and attempt
-again. In the cases where more than θ2 samples are accepted, then
-we consider the attempt successful and inject one of these accepted
-samples into the current user template (chosen at random)
+2. **I consider that the adversary can successfully inject a sample when at least a θ2 fraction of the attackers samples (as they are wearing the glasses) are accepted by the system. Whenever the adversary attempts to inject a sample, if less than θ2 of his samples are accepted by the system I consider the attempt a failure. In this case, the adversary will increase the amount of perturbations on the glasses (move closer to the user’s template), and attempt again. In the cases where more than θ2 samples are accepted, then I consider the attempt successful and inject one of these accepted samples into the current user template (chosen at random).**
+**The algorithm stops when at least θ1 fraction of the attacker
+samples, while wearing no glasses , is accepted by the system**
 
 
 <img align="right" src="Images/res (2).png" width="500" title="System learned 2-D boundary">
 
 
-3. The algorithm stops when at least θ1 fraction of the attacker
-samples(while wearing no glasses), is accepted by the system.
-
-4. Figure shows, modified 2D system model
+4. Figure shows, modified(2D) decision boundary of system's model. 
 
 <br>
 <br>
 
 <hr>
 
-### Visualization of intermediate poisoning samples
+### 5. Visualization of intermediate poisoning samples
 
-<img src="Images/result2.png"  title="Image samples">
+<img src="Images/result2.png" width="860"  title="Image samples">
 
 
 
