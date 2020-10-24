@@ -16,7 +16,9 @@ them are commonly delivered with consumer products.
 
 
 
-* Implementation from <a href="https://arxiv.org/abs/1905.09162">Paper</a>
+
+* This project is the implementation of the research paper titled '**Biometric Backdoors: A Poisoning Attack Against Unsupervised Template Updating**', proposed by Giulio Lovisotto, Simon Eberz, Ivan Martinovic. Download **<a href="https://arxiv.org/abs/1905.09162">Paper</a>**.
+
 
 
 <br>
@@ -64,7 +66,9 @@ them are commonly delivered with consumer products.
 
  <img align="right" src="Images/Overview.png" width="500" title="Paper Overview">
 
-**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">HERE</a>. Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Part(1)%20%20Biometric%20Backdoors%20INTRO.ipynb">NOTEBOOK</a> for more details**
+**Download paper(highlighted) from  <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/poisoning%20attacks%20biometrics.pdf">HERE</a>.**
+
+**Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Part(1)%20%20Biometric%20Backdoors%20INTRO.ipynb">NOTEBOOK</a> for more details.**
 
 
 **The contributions of this paper are as follows:**
@@ -174,6 +178,8 @@ samples, while wearing no glasses , is accepted by the system**
 
 
 ## 7. Evaluation 
+
+**Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Part(4)%20Poisoning%20Countermeasures.ipynb">NOTEBOOK</a> for more  section details.**
 
 * **Impostor acceptance rate (IAR)**: The proportion of attacker samplesthat are accepted by the system as legitimate.
 
