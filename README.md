@@ -92,7 +92,7 @@ user samples, rejecting the adversary in an impersonation attempt.
 <hr>
 
 
-## 4.. Poisoning Sample Generation
+## 4. Poisoning Sample Generation
 
 **Refer <a href="https://github.com/Adk2001tech/Biometric-Backdoors/blob/main/Notebooks/Part(2.2)%20%20Poisoning%20Samples%20GenerationTarget.ipynb">NOTEBOOK</a> for more  section details**
 
